@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Minecraft</title>
-		<link rel="stylesheet" href="reset.css" />
-		<link rel="stylesheet" href="style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<main>
-			<section class="texto">
-				<h1>Personagens Minecraft</h1>
-				<br />
-				<ul>
-					<li>1-Creeper</li>
-					<li>2-Zumbi</li>
-					<li>3-Steve</li>
-					<li>4-Alex</li>
-				</ul>
-				<h2><strong>Escolha seu personagem:</strong></h2>
-				<input type="number" id="numero" class="numero" />
-				<input type="button" class="botao" value="Mostrar" onclick="mostra()" />
-			</section>
-			<section class="desenho">
-				<canvas width="600" height="700"></canvas>
-				<script src="minecraft.js"></script>
-				<script src="creeper.js"></script>
-				<script src="zumbi.js"></script>
-				<script src="steve.js"></script>
-				<script src="alex.js"></script>
-			</section>
-		</main>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Minecraft</title>
+
+</head>
+<body>
+<div id = 'text'> 
+    <h1>Personagens Minecraft</h1>
+    <strong>1 - Crepper</strong> <br>
+    <strong>2 - Zumbi</strong><br>
+    <strong>3 - Steve</strong> <br>
+    <strong>4 - Alex</strong> <br><br>
+    Escolha o personagem: <br>
+    <input type="number" id="escolha">
+    <input type="button" value="Mostrar" onclick="mostrar()"><br><br>
+</div>
+<div id = "desenho">
+    <canvas width= "1000" height="700"></canvas>
+    <script src="minecraft.js"></script>
+    <script src="mostrarCreeper.js"></script>
+    <script src="mostrarZumbi.js"></script>
+    <script src="mostrarSteve.js"></script>
+    <script src="mostrarAlex.js"></script>
+</div>
+    
+</body>
+
 </html>

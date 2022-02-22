@@ -1,74 +1,13 @@
-body {
-    background: url(imagens/fundo-arvores000.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-
-}
-
-.texto {
-    font-family: 'Roboto Serif', sans-serif;
-    background: url(imagens/madeira.jpg);
-    width: 30%;
-    height: 50%;
+#text{
     text-align: center;
-    display: inline-block;
-    margin: 150px 50px;
-    position: absolute;
-    border-radius: 15px;
-    box-shadow: -10px 10px 30px 10px #000000;
-}
-
-h1 {
-
-    color: #32b8da;
-    padding-top: 10%;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    text-shadow: -4px 4px #000000;
-}
-
-ul {
-    color: #27dfc6;
     font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 15px;
-    text-shadow: -2px 2px #000000;
+    width: 500px;
+    background-color: rgb(220, 231, 231);
+    float:left;
 }
 
-h2 {
-    color: #1ecf7d;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    padding-top: 15px;
-    text-shadow: -3px 3px #000000;
-}
-
-.numero {
-    width: 100px;
-    border: 2px solid #FFFFFF;
-    position: relative;
-    text-align: center;
-    font-size: auto;
-    font-weight: bold;
-    margin-top: 5%;
-}
-
-.botao {
-    width: 80px;
-    border: 2px solid #FFFFFF;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.desenho {
-    position: relative;
-    display: inline-block;
-    margin: 5% 0 0 35%;
-
+#desenho{
+    width: 1000px;
+    height: 700px;
+    float:right;
 }
