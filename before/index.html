@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Minecraft</title>
-
-</head>
-<body>
-<div id = 'text'> 
-    <h1>Personagens Minecraft</h1>
-    <strong>1 - Crepper</strong> <br>
-    <strong>2 - Zumbi</strong><br>
-    <strong>3 - Steve</strong> <br>
-    <strong>4 - Alex</strong> <br><br>
-    Escolha o personagem: <br>
-    <input type="number" id="escolha">
-    <input type="button" value="Mostrar" onclick="mostrar()"><br><br>
-</div>
-<div id = "desenho">
-    <canvas width= "1000" height="700"></canvas>
-    <script src="minecraft.js"></script>
-    <script src="mostrarCreeper.js"></script>
-    <script src="mostrarZumbi.js"></script>
-    <script src="mostrarSteve.js"></script>
-    <script src="mostrarAlex.js"></script>
-</div>
-    
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Minecraft</title>
+	</head>
+	<body>
+		<div id="text">
+			<h1>Personagens Minecraft</h1>
+			<strong>1 - Crepper</strong> <br />
+			<strong>2 - Zumbi</strong><br />
+			<strong>3 - Steve</strong> <br />
+			<strong>4 - Alex</strong> <br /><br />
+			Escolha o personagem: <br />
+			<input type="number" id="escolha" />
+			<input type="button" value="Mostrar" onclick="mostrar()" /><br /><br />
+		</div>
+		<div id="desenho">
+			<canvas width="1000" height="700"></canvas>
+			<script src="main.js"></script>
+			<script src="mostrarCreeper.js"></script>
+			<script src="mostrarZumbi.js"></script>
+			<script src="mostrarSteve.js"></script>
+			<script src="mostrarAlex.js"></script>
+		</div>
+	</body>
 </html>
